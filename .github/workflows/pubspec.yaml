@@ -1,0 +1,47 @@
+name: nella_editor
+description: Nella Editor - Professional Video Editor for Mobile
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # UI & Core
+  cupertino_icons: ^1.0.6
+  provider: ^6.1.1
+  
+  # Video Editing
+  video_editor: ^2.4.0
+  pro_video_editor: ^1.0.3
+  video_compress: ^3.1.2
+  ffmpeg_kit_flutter_full_gpl: ^6.0.3
+  
+  # File & Storage
+  file_picker: ^6.1.1
+  gallery_saver: ^2.3.2
+  path_provider: ^2.1.1
+  permission_handler: ^11.0.1
+  
+  # Media
+  image_picker: ^1.0.7
+  audio_waveforms: ^1.0.2
+  
+  # Text & Fonts
+  google_fonts: ^6.2.1
+  
+  # Animation
+  lottie: ^3.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - assets/icon.png
